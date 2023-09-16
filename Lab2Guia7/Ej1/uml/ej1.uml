@@ -152,7 +152,7 @@
 <XPD:ATTR name="Alpha" type="real">0,557961669015788</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">42,0475920832573</XPD:ATTR>
 <XPD:ATTR name="EdgePosition" type="EdgePositionKind">epTail</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">-infracciones</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">-infractores</XPD:ATTR>
 <XPD:REF name="Model">qkX6VyKl0kWf6UoLMzjFFwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="HeadMultiplicityLabel" type="EdgeLabelView" guid="3heQE4NDv0yv3lB98VlQjgAA">
@@ -448,7 +448,7 @@
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="cV/8ftN36UGd78+VGbFGYgAA">
 <XPD:ATTR name="Name" type="string">CantidadInfractores</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">readonly</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">double</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="Owner">CNwWPh+2+kq3woFX7+9/aAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -481,7 +481,7 @@
 <XPD:REF name="Views[3]">kJLvXCpdTESUrhu5C05E7wAA</XPD:REF>
 <XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Connections[0]" type="UMLAssociationEnd" guid="qkX6VyKl0kWf6UoLMzjFFwAA">
-<XPD:ATTR name="Name" type="string">infracciones</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">infractores</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="Multiplicity" type="string">*</XPD:ATTR>
 <XPD:REF name="Association">/X2QNOvu4EWPPr1BkEp9BQAA</XPD:REF>

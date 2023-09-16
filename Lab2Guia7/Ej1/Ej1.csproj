@@ -52,6 +52,7 @@
     <Compile Include="FormPrincipal.Designer.cs">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelo\Sistema.cs" />
     <Compile Include="Modelo\Validator.cs" />
     <Compile Include="Modelo\Infractor.cs" />
     <Compile Include="Program.cs" />
