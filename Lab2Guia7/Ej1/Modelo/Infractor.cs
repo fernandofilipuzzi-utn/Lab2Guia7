@@ -9,6 +9,8 @@ namespace Ej1.Modelo
     class Infractor :IComparable
     {
         public int Dni { get; set; }
+
+        public string ApellidoYNombre { get; set; }
         public string Telefono { get; set; }
         public string Email { get; set; }
         public double Monto { get; set; }

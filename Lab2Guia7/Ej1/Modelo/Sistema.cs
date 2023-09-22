@@ -32,13 +32,15 @@ namespace Ej1.Modelo
                 string[] campos = lista[linea].Split(';');
 
                 string dni = campos[0];
-                string telefono = campos[1];
-                string email = campos[2];
-                string monto = campos[3];
+                string apellidoYNombre = campos[1];
+                string telefono = campos[2];
+                string email = campos[3];
+                string monto = campos[4];
 
                 try
                 {
                     dni = Validator.NormalizarYValidarDNI(dni);
+                    apellidoYNombre = Validator.NormalizarYValidarApellidoYNombre(apellidoYNombre);
                     telefono = Validator.NormalizarYValidarTelefono(telefono);
                     email = Validator.NormalizarYValidarEmail(email);
                     monto = Validator.NormalizarYValidarDecimal(monto);
@@ -46,6 +48,7 @@ namespace Ej1.Modelo
                     importados.Add(new Infractor
                     {
                         Dni = Convert.ToInt32(dni),
+                        ApellidoYNombre=apellidoYNombre,
                         Telefono = telefono,
                         Email = email,
                         Monto = Convert.ToDouble(monto)
